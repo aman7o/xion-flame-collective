@@ -128,13 +128,29 @@ export const RegionalCard: React.FC<RegionalCardProps> = ({ community }) => {
               <h4 className="text-sm font-medium text-foreground mb-3">Join Community</h4>
               <div className="grid grid-cols-2 gap-2">
                 {community.contactInfo.discord && (
-                  <Button variant="outline" size="sm" className="text-xs justify-start">
+                  <Button 
+                    variant="outline" 
+                    size="sm" 
+                    className="text-xs justify-start"
+                    onClick={(e) => {
+                      e.stopPropagation();
+                      navigator.clipboard.writeText(community.contactInfo.discord || '');
+                    }}
+                  >
                     <MessageCircle className="w-3 h-3 mr-1" />
                     Discord
                   </Button>
                 )}
                 {community.contactInfo.telegram && (
-                  <Button variant="outline" size="sm" className="text-xs justify-start">
+                  <Button 
+                    variant="outline" 
+                    size="sm" 
+                    className="text-xs justify-start"
+                    onClick={(e) => {
+                      e.stopPropagation();
+                      window.open(`https://t.me/${community.contactInfo.telegram?.replace('@', '')}`, '_blank');
+                    }}
+                  >
                     <Send className="w-3 h-3 mr-1" />
                     Telegram
                   </Button>

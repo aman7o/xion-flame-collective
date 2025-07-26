@@ -153,31 +153,71 @@ export const TeamCard: React.FC<TeamCardProps> = ({ member, type = 'team' }) => 
               <h4 className="text-sm font-medium text-foreground mb-3">Contact</h4>
               <div className="grid grid-cols-2 gap-2">
                 {member.contactInfo.email && (
-                  <Button variant="outline" size="sm" className="text-xs justify-start">
+                  <Button 
+                    variant="outline" 
+                    size="sm" 
+                    className="text-xs justify-start"
+                    onClick={(e) => {
+                      e.stopPropagation();
+                      window.open(`mailto:${member.contactInfo.email}`, '_blank');
+                    }}
+                  >
                     <Mail className="w-3 h-3 mr-1" />
                     Email
                   </Button>
                 )}
                 {member.contactInfo.discord && (
-                  <Button variant="outline" size="sm" className="text-xs justify-start">
+                  <Button 
+                    variant="outline" 
+                    size="sm" 
+                    className="text-xs justify-start"
+                    onClick={(e) => {
+                      e.stopPropagation();
+                      navigator.clipboard.writeText(member.contactInfo.discord || '');
+                    }}
+                  >
                     <MessageCircle className="w-3 h-3 mr-1" />
                     Discord
                   </Button>
                 )}
                 {member.contactInfo.twitter && (
-                  <Button variant="outline" size="sm" className="text-xs justify-start">
+                  <Button 
+                    variant="outline" 
+                    size="sm" 
+                    className="text-xs justify-start"
+                    onClick={(e) => {
+                      e.stopPropagation();
+                      window.open(`https://twitter.com/${member.contactInfo.twitter?.replace('@', '')}`, '_blank');
+                    }}
+                  >
                     <Twitter className="w-3 h-3 mr-1" />
                     Twitter
                   </Button>
                 )}
                 {member.contactInfo.telegram && (
-                  <Button variant="outline" size="sm" className="text-xs justify-start">
+                  <Button 
+                    variant="outline" 
+                    size="sm" 
+                    className="text-xs justify-start"
+                    onClick={(e) => {
+                      e.stopPropagation();
+                      window.open(`https://t.me/${member.contactInfo.telegram?.replace('@', '')}`, '_blank');
+                    }}
+                  >
                     <Send className="w-3 h-3 mr-1" />
                     Telegram
                   </Button>
                 )}
                 {member.contactInfo.linkedin && (
-                  <Button variant="outline" size="sm" className="text-xs justify-start">
+                  <Button 
+                    variant="outline" 
+                    size="sm" 
+                    className="text-xs justify-start"
+                    onClick={(e) => {
+                      e.stopPropagation();
+                      window.open(`https://linkedin.com/in/${member.contactInfo.linkedin}`, '_blank');
+                    }}
+                  >
                     <Linkedin className="w-3 h-3 mr-1" />
                     LinkedIn
                   </Button>

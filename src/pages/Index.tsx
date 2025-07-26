@@ -115,6 +115,24 @@ const Index = () => {
         </div>
       </section>
 
+      {/* Admins & Community Managers Section */}
+      <section id="admins" className="py-16 bg-card/20">
+        <div className="container mx-auto px-4">
+          <div className="text-center mb-12">
+            <h2 className="text-3xl font-bold text-foreground mb-4">ADMINS & COMMUNITY MANAGERS</h2>
+            <Button variant="outline" className="mb-6">
+              <Shield className="w-4 h-4 mr-2" />
+              Apply to be Admin
+            </Button>
+          </div>
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 max-w-4xl mx-auto">
+            {adminMembers.map((member) => (
+              <TeamCard key={member.id} member={member} type="admin" />
+            ))}
+          </div>
+        </div>
+      </section>
+
       {/* Regional Communities */}
       <section id="regional" className="py-16">
         <div className="container mx-auto px-4">
@@ -128,6 +146,42 @@ const Index = () => {
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
             {regionalCommunities.map((community) => (
               <RegionalCard key={community.id} community={community} />
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Regional Mods Section */}
+      <section id="mods" className="py-16 bg-card/20">
+        <div className="container mx-auto px-4">
+          <div className="text-center mb-12">
+            <h2 className="text-3xl font-bold text-foreground mb-4">REGIONAL MODERATORS</h2>
+            <Button variant="outline" className="mb-6">
+              <Users className="w-4 h-4 mr-2" />
+              Become a Moderator
+            </Button>
+          </div>
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
+            {regionalMods.map((member) => (
+              <TeamCard key={member.id} member={member} type="mod" />
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Crusaders Section */}
+      <section id="crusaders" className="py-16">
+        <div className="container mx-auto px-4">
+          <div className="text-center mb-12">
+            <h2 className="text-3xl font-bold text-foreground mb-4">CRUSADERS</h2>
+            <Button className="mb-6 gradient-fire text-white">
+              <Award className="w-4 h-4 mr-2" />
+              Apply for Crusader Status
+            </Button>
+          </div>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-4xl mx-auto">
+            {crusaders.map((member) => (
+              <TeamCard key={member.id} member={member} type="crusader" />
             ))}
           </div>
         </div>

@@ -175,67 +175,28 @@ export const adminMembers: TeamMember[] = [
     status: 'online'
   },
   {
-    id: 'demo-community-manager',
-    name: 'Demo Community Manager',
+    id: 'demo-community-manager-1',
+    name: 'Demo Community Manager 1',
     position: 'Community Manager',
     bio: 'Managing daily community interactions and organizing events to strengthen the XION ecosystem.',
     contactInfo: {
-      email: 'community.manager@xion.com',
-      discord: 'CommunityMgr#0002',
-      twitter: '@XionCommunityMgr',
-      telegram: '@XionCommunityMgr'
+      email: 'community.manager1@xion.com',
+      discord: 'CommunityMgr1#0002',
+      twitter: '@XionCommunityMgr1',
+      telegram: '@XionCommunityMgr1'
     },
     status: 'online'
   },
   {
-    id: 'demo-social-manager',
-    name: 'Demo Social Media Manager',
-    position: 'Social Media Manager',
-    bio: 'Creating engaging content and managing XION\'s social media presence across all platforms.',
+    id: 'demo-community-manager-2',
+    name: 'Demo Community Manager 2',
+    position: 'Community Manager',
+    bio: 'Supporting community growth and engagement across multiple platforms and regions.',
     contactInfo: {
-      email: 'social@xion.com',
-      discord: 'SocialMgr#0003',
-      twitter: '@XionSocialMgr',
-      telegram: '@XionSocialMgr'
-    },
-    status: 'online'
-  },
-  {
-    id: 'demo-support-admin',
-    name: 'Demo Support Admin',
-    position: 'Support Administrator',
-    bio: 'Providing technical support and assistance to XION community members and developers.',
-    contactInfo: {
-      email: 'support@xion.com',
-      discord: 'SupportAdmin#0004',
-      twitter: '@XionSupport',
-      telegram: '@XionSupport'
-    },
-    status: 'online'
-  },
-  {
-    id: 'demo-content-admin',
-    name: 'Demo Content Administrator',
-    position: 'Content Administrator',
-    bio: 'Managing and curating high-quality content for XION\'s educational and marketing materials.',
-    contactInfo: {
-      email: 'content@xion.com',
-      discord: 'ContentAdmin#0005',
-      twitter: '@XionContent',
-      telegram: '@XionContent'
-    },
-    status: 'online'
-  },
-  {
-    id: 'demo-events-admin',
-    name: 'Demo Events Administrator',
-    position: 'Events Administrator',
-    bio: 'Organizing and coordinating XION community events, AMAs, and educational workshops.',
-    contactInfo: {
-      email: 'events@xion.com',
-      discord: 'EventsAdmin#0006',
-      twitter: '@XionEvents',
-      telegram: '@XionEvents'
+      email: 'community.manager2@xion.com',
+      discord: 'CommunityMgr2#0003',
+      twitter: '@XionCommunityMgr2',
+      telegram: '@XionCommunityMgr2'
     },
     status: 'online'
   }
