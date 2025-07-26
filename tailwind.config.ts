@@ -62,11 +62,11 @@ export default {
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
 				},
-				xion: {
-					orange: 'hsl(var(--xion-orange))',
-					'orange-light': 'hsl(var(--xion-orange-light))',
-					'orange-dark': 'hsl(var(--xion-orange-dark))',
-					red: 'hsl(var(--xion-red))'
+				fire: {
+					red: 'hsl(var(--fire-red))',
+					orange: 'hsl(var(--fire-orange))',
+					yellow: 'hsl(var(--fire-yellow))',
+					'orange-dark': 'hsl(var(--fire-orange-dark))'
 				}
 			},
 			borderRadius: {
@@ -87,36 +87,32 @@ export default {
 					'0%': { opacity: '0', transform: 'translateY(20px)' },
 					'100%': { opacity: '1', transform: 'translateY(0)' }
 				},
-				'fade-in-up': {
-					'0%': { opacity: '0', transform: 'translateY(30px)' },
-					'100%': { opacity: '1', transform: 'translateY(0)' }
+				'fade-out': {
+					'0%': { opacity: '1', transform: 'translateY(0)' },
+					'100%': { opacity: '0', transform: 'translateY(20px)' }
 				},
-				'scale-in': {
-					'0%': { transform: 'scale(0.95)', opacity: '0' },
-					'100%': { transform: 'scale(1)', opacity: '1' }
+				'spin-slow': {
+					'0%': { transform: 'rotate(0deg)' },
+					'100%': { transform: 'rotate(360deg)' }
 				},
-				'glow-pulse': {
-					'0%, 100%': { opacity: '1' },
-					'50%': { opacity: '0.7' }
-				},
-				'shimmer': {
-					'0%': { transform: 'translateX(-100%)' },
-					'100%': { transform: 'translateX(100%)' }
-				},
-				'float': {
-					'0%, 100%': { transform: 'translateY(0px)' },
-					'50%': { transform: 'translateY(-10px)' }
+				'fire-flicker': {
+					'0%, 100%': { 
+						transform: 'scale(1) translateY(0)',
+						opacity: '1'
+					},
+					'50%': {
+						transform: 'scale(1.05) translateY(-5px)',
+						opacity: '0.8'
+					}
 				}
 			},
 			animation: {
-				'accordion-down': 'accordion-down 0.3s ease-out',
-				'accordion-up': 'accordion-up 0.3s ease-out',
-				'fade-in': 'fade-in 0.6s ease-out',
-				'fade-in-up': 'fade-in-up 0.8s ease-out',
-				'scale-in': 'scale-in 0.4s ease-out',
-				'glow-pulse': 'glow-pulse 2s ease-in-out infinite',
-				'shimmer': 'shimmer 2s linear infinite',
-				'float': 'float 3s ease-in-out infinite'
+				'accordion-down': 'accordion-down 0.2s ease-out',
+				'accordion-up': 'accordion-up 0.2s ease-out',
+				'fade-in': 'fade-in 0.5s ease-out',
+				'fade-out': 'fade-out 0.5s ease-out',
+				'spin-slow': 'spin-slow 3s linear infinite',
+				'fire-flicker': 'fire-flicker 2s ease-in-out infinite'
 			}
 		}
 	},
