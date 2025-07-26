@@ -88,7 +88,7 @@ export const Navigation: React.FC<NavigationProps> = ({
           <div className="flex items-center justify-between mb-4">
             {/* Logo */}
             <div className="flex items-center space-x-3">
-              <div className="w-8 h-8 rounded-full bg-gradient-to-br from-xion-orange to-xion-red flex items-center justify-center">
+              <div className="w-8 h-8 rounded-full bg-gradient-to-br from-fire-orange to-fire-red flex items-center justify-center">
                 <img 
                   src="/lovable-uploads/b2ad595c-b11c-4beb-8956-ebf9b2cbc96e.png"
                   alt="XION Logo"
@@ -102,7 +102,7 @@ export const Navigation: React.FC<NavigationProps> = ({
                 />
                 <div className="w-6 h-6 hidden">🔥</div>
               </div>
-              <h1 className="text-xl font-bold bg-gradient-to-r from-xion-orange to-xion-red bg-clip-text text-transparent">
+              <h1 className="text-xl font-bold bg-gradient-to-r from-fire-orange to-fire-red bg-clip-text text-transparent">
                 XION
               </h1>
             </div>

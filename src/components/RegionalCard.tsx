@@ -33,14 +33,14 @@ export const RegionalCard: React.FC<RegionalCardProps> = ({ community }) => {
         <div className="relative p-6">
           {/* Regional Flag/Icon */}
           <div className="relative mb-4">
-            <div className="w-20 h-20 mx-auto rounded-full bg-gradient-to-br from-xion-orange to-xion-red p-1">
+            <div className="w-20 h-20 mx-auto rounded-full bg-gradient-to-br from-fire-orange to-fire-red p-1">
               <div className="w-full h-full rounded-full bg-muted flex items-center justify-center">
                 <Globe className="w-8 h-8 text-primary" />
               </div>
             </div>
             
             {/* Community Badge */}
-            <Badge className="absolute -bottom-2 left-1/2 transform -translate-x-1/2 bg-gradient-to-r from-xion-orange-light to-xion-orange text-white text-xs px-3 py-1">
+            <Badge className="absolute -bottom-2 left-1/2 transform -translate-x-1/2 bg-gradient-to-r from-fire-yellow to-fire-orange text-white text-xs px-3 py-1">
               COMMUNITY
             </Badge>
           </div>

@@ -75,7 +75,7 @@ const Index = () => {
       {/* Hero Section */}
       <section className="py-20 text-center">
         <div className="container mx-auto px-4">
-          <h1 className="text-5xl font-bold bg-gradient-to-r from-xion-orange to-xion-red bg-clip-text text-transparent mb-6">
+          <h1 className="text-5xl font-bold bg-gradient-to-r from-fire-orange to-fire-red bg-clip-text text-transparent mb-6">
             Meet the XION Team
           </h1>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
@@ -89,7 +89,7 @@ const Index = () => {
         <div className="container mx-auto px-4">
           <div className="text-center mb-12">
             <h2 className="text-3xl font-bold text-foreground mb-4">XION FOUNDER</h2>
-            <div className="w-24 h-1 bg-gradient-to-r from-xion-orange to-xion-red mx-auto"></div>
+            <div className="w-24 h-1 bg-gradient-to-r from-fire-orange to-fire-red mx-auto"></div>
           </div>
           <div className="max-w-md mx-auto">
             <TeamCard member={founder} type="founder" />

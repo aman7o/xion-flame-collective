@@ -19,7 +19,7 @@ export const TeamCard: React.FC<TeamCardProps> = ({ member, type = 'team' }) => 
   const getTypeColor = (type: string) => {
     switch (type) {
       case 'founder':
-        return 'bg-gradient-to-r from-xion-orange to-xion-red';
+        return 'bg-gradient-to-r from-fire-orange to-fire-red';
       case 'team':
         return 'bg-primary';
       case 'admin':
@@ -27,7 +27,7 @@ export const TeamCard: React.FC<TeamCardProps> = ({ member, type = 'team' }) => 
       case 'mod':
         return 'bg-secondary';
       case 'crusader':
-        return 'bg-gradient-to-r from-xion-orange-light to-xion-orange';
+        return 'bg-gradient-to-r from-fire-yellow to-fire-orange';
       case 'ambassador':
         return 'bg-muted';
       default:
@@ -56,7 +56,7 @@ export const TeamCard: React.FC<TeamCardProps> = ({ member, type = 'team' }) => 
           
           {/* Profile Image */}
           <div className="relative mb-4">
-            <div className="w-20 h-20 mx-auto rounded-full bg-gradient-to-br from-xion-orange to-xion-red p-1">
+            <div className="w-20 h-20 mx-auto rounded-full bg-gradient-to-br from-fire-orange to-fire-red p-1">
               <div className="w-full h-full rounded-full bg-muted flex items-center justify-center overflow-hidden">
                 {member.image ? (
                   <img 
