@@ -162,29 +162,29 @@ export const teamMembers: TeamMember[] = [
 
 export const adminMembers: TeamMember[] = [
   {
-    id: 'demo-discord-admin',
-    name: 'Demo Discord Admin',
-    position: 'Discord Administrator',
-    bio: 'Experienced Discord community moderator ensuring positive engagement and support for XION community members.',
+    id: 'atoz',
+    name: 'Atoz',
+    position: 'Admin',
+    bio: 'Atoz is currently overseeing XION\'s Discord server, Telegram channels, and handling the majority of community management responsibilities. With a strong presence in the crypto ecosystem, Atoz ensures smooth community engagement and support across all platforms.',
     contactInfo: {
-      email: 'discord.admin@xion.com',
-      discord: 'DiscordAdmin#0001',
-      twitter: '@XionDiscordAdmin',
-      telegram: '@XionDiscordAdmin'
+      discord: 'Atoz#0001',
+      twitter: 'https://x.com/0xAtoz',
+      telegram: '@Atoz'
     },
+    image: '/lovable-uploads/89c74a4c-0b03-400c-b8db-79eee1aca79e.png',
     status: 'online'
   },
   {
-    id: 'demo-community-manager-1',
-    name: 'Demo Community Manager 1',
+    id: 'jsbmudit',
+    name: 'JsbMudit',
     position: 'Community Manager',
-    bio: 'Managing daily community interactions and organizing events to strengthen the XION ecosystem.',
+    bio: 'JsbMudit actively manages XION\'s Discord server and oversees the gaming ecosystem, including cross-chain games. He plays a vital role in community engagement, ensuring smooth interactions and organizing events that drive participation and growth.',
     contactInfo: {
-      email: 'community.manager1@xion.com',
-      discord: 'CommunityMgr1#0002',
-      twitter: '@XionCommunityMgr1',
-      telegram: '@XionCommunityMgr1'
+      discord: 'JsbMudit#0002',
+      twitter: 'https://x.com/jsbmudit',
+      telegram: '@JsbMudit'
     },
+    image: '/lovable-uploads/9899f0bf-630b-4e36-8217-2fef68d5fd72.png',
     status: 'online'
   },
   {
