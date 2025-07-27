@@ -37,125 +37,38 @@ export const teamMembers: TeamMember[] = [
       'Marketing campaigns for Virgin, Porsche, Emirates',
       'Built global crypto marketing strategies'
     ],
+    image: '/lovable-uploads/adam-bates.jpg',
     status: 'online'
   },
   {
-    id: 'demo-cto',
-    name: 'Demo CTO',
-    position: 'Chief Technology Officer',
-    bio: 'Leading blockchain architect with 15+ years in distributed systems. Spearheading XION\'s technical innovation and infrastructure development.',
+    id: 'pj-burnt-maska',
+    name: 'PJ | Burnt Maska',
+    position: 'Growth Team Member',
+    bio: 'Member of XION growth team, He is Santa for all the XION believers, he makes wishes come true.',
     contactInfo: {
-      email: 'cto@xion.com',
-      discord: 'DemoCTO#5678',
-      twitter: '@XionCTO'
+      twitter: '@Prajjwal08'
     },
-    achievements: [
-      'Expert in blockchain architecture',
-      '15+ years in distributed systems',
-      'Patent holder in consensus mechanisms'
-    ],
+    image: '/lovable-uploads/pj-burnt-maska.jpg',
     status: 'online'
   },
   {
-    id: 'demo-coo',
-    name: 'Demo COO',
-    position: 'Chief Operating Officer',
-    bio: 'Operations executive with Fortune 500 experience. Optimizing XION\'s global operations and strategic partnerships.',
-    contactInfo: {
-      email: 'coo@xion.com',
-      discord: 'DemoCOO#9101',
-      twitter: '@XionCOO'
-    },
-    achievements: [
-      'Fortune 500 operations experience',
-      'Global team scaling specialist',
-      'Strategic partnership expert'
-    ],
+    id: 'ze-burnt-barrel',
+    name: 'Ze - Burnt Barrel',
+    position: 'Team Member',
+    bio: 'Dedicated team member contributing to XION\'s mission and ecosystem growth.',
+    contactInfo: {},
+    image: '/lovable-uploads/ze-burnt-barrel.jpg',
     status: 'online'
   },
   {
-    id: 'demo-product',
-    name: 'Demo Head of Product',
-    position: 'Head of Product',
-    bio: 'Product visionary with Web3 UX expertise. Designing the future of walletless blockchain interactions.',
+    id: 'burnt-unagi',
+    name: 'Burnt Unagi',
+    position: 'APAC Expansion',
+    bio: 'Leading APAC expansion efforts for XION, driving growth and partnerships across the Asia-Pacific region.',
     contactInfo: {
-      email: 'product@xion.com',
-      discord: 'DemoProduct#1122',
-      twitter: '@XionProduct'
+      twitter: '@BurntUnagi_apac'
     },
-    achievements: [
-      'Web3 UX design pioneer',
-      'Consumer app product experience',
-      'User research and analytics expert'
-    ],
-    status: 'online'
-  },
-  {
-    id: 'demo-engineering',
-    name: 'Demo Head of Engineering',
-    position: 'Head of Engineering',
-    bio: 'Engineering leader building scalable blockchain solutions. Expert in Cosmos SDK and chain abstraction protocols.',
-    contactInfo: {
-      email: 'engineering@xion.com',
-      discord: 'DemoEng#3344',
-      twitter: '@XionEng'
-    },
-    achievements: [
-      'Cosmos SDK core contributor',
-      'Blockchain scaling solutions',
-      'Team leadership and mentoring'
-    ],
-    status: 'online'
-  },
-  {
-    id: 'demo-bizdev',
-    name: 'Demo Head of Business Development',
-    position: 'Head of Business Development',
-    bio: 'Strategic partnerships expert connecting XION with enterprise clients and ecosystem partners.',
-    contactInfo: {
-      email: 'bizdev@xion.com',
-      discord: 'DemoBizDev#5566',
-      twitter: '@XionBizDev'
-    },
-    achievements: [
-      'Enterprise blockchain partnerships',
-      'Strategic alliance development',
-      'Revenue growth specialist'
-    ],
-    status: 'online'
-  },
-  {
-    id: 'demo-community',
-    name: 'Demo Head of Community',
-    position: 'Head of Community',
-    bio: 'Community building expert fostering XION\'s global ecosystem. Managing developer relations and user engagement.',
-    contactInfo: {
-      email: 'community@xion.com',
-      discord: 'DemoCommunity#7788',
-      twitter: '@XionCommunity'
-    },
-    achievements: [
-      'Global community management',
-      'Developer relations expertise',
-      'Event and meetup coordination'
-    ],
-    status: 'online'
-  },
-  {
-    id: 'demo-partnerships',
-    name: 'Demo Head of Partnerships',
-    position: 'Head of Partnerships',
-    bio: 'Partnership strategist building XION\'s ecosystem of integrations and collaborations.',
-    contactInfo: {
-      email: 'partnerships@xion.com',
-      discord: 'DemoPartnerships#9900',
-      twitter: '@XionPartnerships'
-    },
-    achievements: [
-      'Ecosystem partnership development',
-      'Integration strategy planning',
-      'Cross-chain collaboration expert'
-    ],
+    image: '/lovable-uploads/burnt-unagi.jpg',
     status: 'online'
   }
 ];
@@ -168,7 +81,7 @@ export const adminMembers: TeamMember[] = [
     bio: 'Atoz is currently overseeing XION\'s Discord server, Telegram channels, and handling the majority of community management responsibilities. With a strong presence in the crypto ecosystem, Atoz ensures smooth community engagement and support across all platforms.',
     contactInfo: {
       discord: 'Atoz#0001',
-      twitter: 'https://x.com/0xAtoz',
+      twitter: '@0xAtoz',
       telegram: '@Atoz'
     },
     image: '/lovable-uploads/89c74a4c-0b03-400c-b8db-79eee1aca79e.png',
@@ -181,23 +94,22 @@ export const adminMembers: TeamMember[] = [
     bio: 'JsbMudit actively manages XION\'s Discord server and oversees the gaming ecosystem, including cross-chain games. He plays a vital role in community engagement, ensuring smooth interactions and organizing events that drive participation and growth.',
     contactInfo: {
       discord: 'JsbMudit#0002',
-      twitter: 'https://x.com/jsbmudit',
+      twitter: '@jsbmudit',
       telegram: '@JsbMudit'
     },
     image: '/lovable-uploads/9899f0bf-630b-4e36-8217-2fef68d5fd72.png',
     status: 'online'
   },
   {
-    id: 'demo-community-manager-2',
-    name: 'Demo Community Manager 2',
+    id: 'l1ghtik',
+    name: 'l1ghtik',
     position: 'Community Manager',
-    bio: 'Supporting community growth and engagement across multiple platforms and regions.',
+    bio: 'l1ghtik actively manages XION\'s Discord server and oversees the gaming ecosystem, including cross-chain games. He plays a vital role in community engagement, ensuring smooth interactions and organizing events that drive participation and growth.',
     contactInfo: {
-      email: 'community.manager2@xion.com',
-      discord: 'CommunityMgr2#0003',
-      twitter: '@XionCommunityMgr2',
-      telegram: '@XionCommunityMgr2'
+      discord: 'l1ghtik#0003',
+      telegram: '@l1ghtik'
     },
+    image: '/lovable-uploads/l1ghtik.jpg',
     status: 'online'
   }
 ];
@@ -211,8 +123,10 @@ export const regionalCommunities: RegionalCommunity[] = [
     initiatives: ['Local meetups', 'Developer workshops', 'University partnerships'],
     contactInfo: {
       discord: 'XionIndia#0001',
-      telegram: '@XionIndia'
-    }
+      telegram: '@XionIndia',
+      twitter: '@xion_indian'
+    },
+    image: '/lovable-uploads/xion-india.jpg'
   },
   {
     id: 'xion-nigeria',
@@ -222,8 +136,10 @@ export const regionalCommunities: RegionalCommunity[] = [
     initiatives: ['FinTech partnerships', 'Educational programs', 'Community events'],
     contactInfo: {
       discord: 'XionNigeria#0002',
-      telegram: '@XionNigeria'
-    }
+      telegram: '@XionNigeria',
+      twitter: '@xion_nigeria'
+    },
+    image: '/lovable-uploads/xion-nigeria.jpg'
   },
   {
     id: 'xion-indonesia',
@@ -233,19 +149,10 @@ export const regionalCommunities: RegionalCommunity[] = [
     initiatives: ['Local blockchain education', 'Developer meetups', 'Gaming partnerships'],
     contactInfo: {
       discord: 'XionIndonesia#0003',
-      telegram: '@XionIndonesia'
-    }
-  },
-  {
-    id: 'xion-russia',
-    name: 'XION RUSSIA',
-    region: 'Russia',
-    stats: { members: 1200, activeUsers: 500 },
-    initiatives: ['Technical workshops', 'Community translations', 'Developer support'],
-    contactInfo: {
-      discord: 'XionRussia#0004',
-      telegram: '@XionRussia'
-    }
+      telegram: '@XionIndonesia',
+      twitter: '@xion_indonesia'
+    },
+    image: '/lovable-uploads/xion-indonesia.jpg'
   },
   {
     id: 'xion-ukraine',
@@ -255,8 +162,10 @@ export const regionalCommunities: RegionalCommunity[] = [
     initiatives: ['Developer community', 'Educational content', 'Local partnerships'],
     contactInfo: {
       discord: 'XionUkraine#0005',
-      telegram: '@XionUkraine'
-    }
+      telegram: '@XionUkraine',
+      twitter: '@xion_ukraine'
+    },
+    image: '/lovable-uploads/xion-ukraine.jpg'
   },
   {
     id: 'xion-pakistan',
@@ -266,8 +175,10 @@ export const regionalCommunities: RegionalCommunity[] = [
     initiatives: ['University outreach', 'Local meetups', 'Developer training'],
     contactInfo: {
       discord: 'XionPakistan#0006',
-      telegram: '@XionPakistan'
-    }
+      telegram: '@XionPakistan',
+      twitter: '@Xion_Pakistan'
+    },
+    image: '/lovable-uploads/xion-pakistan.jpg'
   },
   {
     id: 'xion-bangladesh',
@@ -277,36 +188,122 @@ export const regionalCommunities: RegionalCommunity[] = [
     initiatives: ['Community building', 'Educational workshops', 'Local events'],
     contactInfo: {
       discord: 'XionBangladesh#0007',
-      telegram: '@XionBangladesh'
-    }
+      telegram: '@XionBangladesh',
+      twitter: '@XIONBangladesh'
+    },
+    image: '/lovable-uploads/xion-bangladesh.jpg'
   },
   {
-    id: 'xion-italy',
-    name: 'XION ITALY',
-    region: 'Italy',
+    id: 'xion-philippines',
+    name: 'XION PHILIPPINES',
+    region: 'Philippines',
     stats: { members: 650, activeUsers: 280 },
-    initiatives: ['European partnerships', 'Developer community', 'Local meetups'],
+    initiatives: ['Gaming partnerships', 'Developer community', 'Local meetups'],
     contactInfo: {
-      discord: 'XionItaly#0008',
-      telegram: '@XionItaly'
-    }
+      discord: 'XionPhilippines#0008',
+      telegram: '@XionPhilippines',
+      twitter: '@xion_ph'
+    },
+    image: '/lovable-uploads/xion-philippines.jpg'
   }
 ];
 
-export const regionalMods: TeamMember[] = regionalCommunities.map((community, index) => ({
-  id: `mod-${community.region.toLowerCase()}`,
-  name: `Demo Mod ${index + 1}`,
-  position: `${community.region} Moderator`,
-  region: community.region,
-  bio: `Dedicated moderator for the ${community.region} XION community, ensuring positive engagement and supporting local initiatives.`,
-  contactInfo: {
-    email: `mod.${community.region.toLowerCase()}@xion.com`,
-    discord: `${community.region}Mod#${String(index + 1).padStart(4, '0')}`,
-    twitter: `@Xion${community.region}Mod`,
-    telegram: `@Xion${community.region}Mod`
+export const regionalMods: TeamMember[] = [
+  {
+    id: 'mod-india',
+    name: 'Aman',
+    position: 'India Moderator',
+    region: 'India',
+    bio: 'Dedicated moderator for the India XION community, ensuring positive engagement and supporting local initiatives.',
+    contactInfo: {
+      twitter: '@otxAman'
+    },
+    image: '/lovable-uploads/aman.jpg',
+    status: 'online'
   },
-  status: 'online'
-}));
+  {
+    id: 'mod-nigeria',
+    name: 'Daniel',
+    position: 'Nigeria Moderator',
+    region: 'Nigeria',
+    bio: 'Dedicated moderator for the Nigeria XION community, ensuring positive engagement and supporting local initiatives.',
+    contactInfo: {},
+    image: '/lovable-uploads/daniel.jpg',
+    status: 'online'
+  },
+  {
+    id: 'mod-indonesia',
+    name: 'Marko Stevan',
+    position: 'Indonesia Moderator',
+    region: 'Indonesia',
+    bio: 'Dedicated moderator for the Indonesia XION community, ensuring positive engagement and supporting local initiatives.',
+    contactInfo: {
+      twitter: '@MarkoStevan19'
+    },
+    image: '/lovable-uploads/marko-stevan.jpg',
+    status: 'online'
+  },
+  {
+    id: 'mod-ukraine',
+    name: 'DoNotCallMe',
+    position: 'Ukraine Moderator',
+    region: 'Ukraine',
+    bio: 'Dedicated moderator for the Ukraine XION community, ensuring positive engagement and supporting local initiatives.',
+    contactInfo: {
+      twitter: '@don0tcallme'
+    },
+    image: '/lovable-uploads/donotcallme.jpg',
+    status: 'online'
+  },
+  {
+    id: 'mod-pakistan',
+    name: 'Sherry',
+    position: 'Pakistan Moderator',
+    region: 'Pakistan',
+    bio: 'Dedicated moderator for the Pakistan XION community, ensuring positive engagement and supporting local initiatives.',
+    contactInfo: {
+      twitter: '@sherrythelast'
+    },
+    image: '/lovable-uploads/sherry.jpg',
+    status: 'online'
+  },
+  {
+    id: 'mod-bangladesh',
+    name: 'Alok',
+    position: 'Bangladesh Moderator',
+    region: 'Bangladesh',
+    bio: 'Dedicated moderator for the Bangladesh XION community, ensuring positive engagement and supporting local initiatives.',
+    contactInfo: {
+      twitter: '@alok_inj'
+    },
+    image: '/lovable-uploads/alok.jpg',
+    status: 'online'
+  },
+  {
+    id: 'mod-russia',
+    name: 'MiReTu',
+    position: 'Russia Moderator',
+    region: 'Russia',
+    bio: 'Dedicated moderator for the Russia XION community, ensuring positive engagement and supporting local initiatives.',
+    contactInfo: {
+      twitter: '@_MiReTu_'
+    },
+    image: '/lovable-uploads/miretu.jpg',
+    status: 'online'
+  },
+  {
+    id: 'mod-philippines',
+    name: 'ACRis',
+    position: 'Philippines Moderator',
+    region: 'Philippines',
+    bio: 'Dedicated moderator for the Philippines XION community, ensuring positive engagement and supporting local initiatives.',
+    contactInfo: {
+      twitter: '@ItsmeAcris'
+    },
+    image: '/lovable-uploads/acris.jpg',
+    status: 'online'
+  }
+];
 
 export const crusaders: TeamMember[] = [
   {
