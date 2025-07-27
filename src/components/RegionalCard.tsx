@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { ChevronDown, ChevronUp, Users, Activity, MessageCircle, Send, Globe, Zap } from 'lucide-react';
+import { ChevronDown, ChevronUp, Users, Activity, MessageCircle, Send, Globe, Zap, Twitter } from 'lucide-react';
 import { RegionalCommunity } from '../types/team';
 import { Button } from './ui/button';
 import { Badge } from './ui/badge';
@@ -34,9 +34,19 @@ export const RegionalCard: React.FC<RegionalCardProps> = ({ community }) => {
           {/* Regional Flag/Icon */}
           <div className="relative mb-4">
             <div className="w-20 h-20 mx-auto rounded-full bg-gradient-to-br from-fire-orange to-fire-red p-1">
-              <div className="w-full h-full rounded-full bg-muted flex items-center justify-center">
-                <Globe className="w-8 h-8 text-primary" />
-              </div>
+              {community.image ? (
+                <div className="w-full h-full rounded-full overflow-hidden">
+                  <img 
+                    src={community.image} 
+                    alt={community.name}
+                    className="w-full h-full object-cover"
+                  />
+                </div>
+              ) : (
+                <div className="w-full h-full rounded-full bg-muted flex items-center justify-center">
+                  <Globe className="w-8 h-8 text-primary" />
+                </div>
+              )}
             </div>
             
             {/* Community Badge */}
@@ -126,7 +136,7 @@ export const RegionalCard: React.FC<RegionalCardProps> = ({ community }) => {
             {/* Contact Info */}
             <div>
               <h4 className="text-sm font-medium text-foreground mb-3">Join Community</h4>
-              <div className="grid grid-cols-2 gap-2">
+              <div className="grid grid-cols-3 gap-2">
                 {community.contactInfo.discord && (
                   <Button 
                     variant="outline" 
@@ -153,6 +163,20 @@ export const RegionalCard: React.FC<RegionalCardProps> = ({ community }) => {
                   >
                     <Send className="w-3 h-3 mr-1" />
                     Telegram
+                  </Button>
+                )}
+                {community.contactInfo.twitter && (
+                  <Button 
+                    variant="outline" 
+                    size="sm" 
+                    className="text-xs justify-start"
+                    onClick={(e) => {
+                      e.stopPropagation();
+                      window.open(`https://twitter.com/${community.contactInfo.twitter?.replace('@', '')}`, '_blank');
+                    }}
+                  >
+                    <Twitter className="w-3 h-3 mr-1" />
+                    Twitter
                   </Button>
                 )}
               </div>
